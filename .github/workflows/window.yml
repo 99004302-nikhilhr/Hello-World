@@ -1,4 +1,4 @@
-name: Linux C/C++ CI
+name: Windows C/C++ CI
 
 on:
   push:
@@ -9,11 +9,11 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc nik.c -o nik.exe
+      run: gcc hello.c -o hello.exe
     - name: Run
-      run: ./nik.exe
+      run: .\hello.exe
