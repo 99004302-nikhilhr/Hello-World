@@ -3,6 +3,6 @@ int main()
 {
     printf("Welcome to Github Actions.\n********* Its Working*******\n");
     printf("NIKHIL");
-    printf("dkjfb");
+    printf("dkj");
     return 0;
 }
